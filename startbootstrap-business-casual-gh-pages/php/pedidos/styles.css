@@ -1,0 +1,61 @@
+body, h1, form {  
+  margin: 0;  
+  padding: 0;  
+}  
+
+body {  
+  font-family: Arial, sans-serif;  
+  background-color: #f0f0f0;  
+  color: #333;  
+  line-height: 1.6;  
+}  
+
+h1 {  
+  text-align: center;  
+  margin: 20px 0;  
+  color: #2c3e50;  
+  font-size: 2.5em;  
+}  
+
+.form {  
+  max-width: 400px; /* Set a max width for the form */  
+  margin: 0 auto; /* Center the form */  
+  background: white; /* Background color for the form */  
+  padding: 20px; /* Padding inside the form */  
+  border-radius: 8px; /* Rounded corners */  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */  
+}  
+
+form label {  
+  display: block;  
+  margin-bottom: 8px;  
+  font-weight: bold;  
+  margin-right: 15px;
+}  
+
+input[type="number"] {  
+  width: 100%; /* Full width of the input */  
+  padding: 10px; /* Padding inside the input */  
+  margin-bottom: 16px; /* Space below the input */  
+  margin-right: 10px; /* Espacio a la derecha del input */  
+  border: 1px solid #ccc; /* Input border */  
+  border-radius: 4px; /* Rounded corners for the input */  
+  font-size: 16px; /* Font size inside the input */  
+
+
+}  
+
+input[type="number"]:focus {  
+  border-color: #3498db; /* Change border color on focus */  
+  outline: none; /* Remove default outline */  
+}  
+
+@media (max-width: 480px) {  
+  h1 {  
+      font-size: 2em; /* Adjust heading size on small screens */  
+  }  
+
+  .form {  
+      padding: 15px; /* Reduce padding for small screens */  
+  }  
+}  
